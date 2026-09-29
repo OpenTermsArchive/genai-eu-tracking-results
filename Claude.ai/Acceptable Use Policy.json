@@ -1,0 +1,52 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T22:31:50.973Z",
+    "serviceName": "Claude.ai",
+    "sourceDocuments": [
+      {
+        "id": "legal-aup",
+        "fetch": "https://www.anthropic.com/legal/aup",
+        "select": [
+          "main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "425f9fb75aef281c78b55685d04aac47c899db8c"
+      },
+      {
+        "id": "en-articles-9307344-responsible-use-of-anthropic-s-models-guidelines-for-organizations-serving-minors",
+        "fetch": "https://support.anthropic.com/en/articles/9307344-responsible-use-of-anthropic-s-models-guidelines-for-organizations-serving-minors",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          ".avatar__info",
+          ".related_articles",
+          ".DocsArticle_relatedList__tzZU6",
+          ".DocsArticle_reactions__MwRj3",
+          ".DocsArticle_relatedTitle__Ysv8Y",
+          "button"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "57180842a5d2206354b7f1f8993993947d25ee69"
+      },
+      {
+        "id": "en-articles-9528712-exceptions-to-our-usage-policy",
+        "fetch": "https://support.anthropic.com/en/articles/9528712-exceptions-to-our-usage-policy",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          ".avatar__info",
+          ".related_articles",
+          ".DocsArticle_relatedList__tzZU6",
+          ".DocsArticle_reactions__MwRj3",
+          ".DocsArticle_relatedTitle__Ysv8Y",
+          "button"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "e5f7d16d34210013d9784e9dea97e0139c6a8c91"
+      }
+    ]
+  }
+}
