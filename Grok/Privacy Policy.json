@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T22:32:24.339Z",
+    "serviceName": "Grok",
+    "sourceDocuments": [
+      {
+        "id": "legal-privacy-policy",
+        "fetch": "https://x.ai/legal/privacy-policy/",
+        "select": [
+          ".prose"
+        ],
+        "remove": [
+          "[href=\"/legal\"]:first-child"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "066220058ad4bbe2c3a57b596bda82ccfab2ef0a"
+      },
+      {
+        "id": "legal-europe-privacy-policy-addendum",
+        "fetch": "https://x.ai/legal/europe-privacy-policy-addendum",
+        "select": [
+          ".prose"
+        ],
+        "remove": [
+          "[href=\"/legal\"]:first-child"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "038f04153f18c0e535fd40ccca293a83e11ab1ae"
+      }
+    ]
+  }
+}
