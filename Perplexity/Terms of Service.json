@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T22:34:39.190Z",
+    "serviceName": "Perplexity",
+    "sourceDocuments": [
+      {
+        "id": "hub-legal-terms-of-service",
+        "fetch": "https://www.perplexity.ai/hub/legal/terms-of-service",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "._topBar_1s0ai_27",
+          "nav"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "8d80318f337e4395e3b95d155814f5cc1db7575e"
+      }
+    ]
+  }
+}
