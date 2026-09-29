@@ -1,0 +1,29 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T22:33:52.894Z",
+    "serviceName": "Llama API",
+    "sourceDocuments": [
+      {
+        "id": "privacy-policies-cookies-printable",
+        "fetch": "https://mbasic.facebook.com/privacy/policies/cookies/printable/",
+        "select": [
+          "#root"
+        ],
+        "remove": [
+          ".k",
+          ".l",
+          ".bh",
+          "img",
+          ".bk"
+        ],
+        "filter": [
+          "removeTrackingIDs"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "ada2c71eba39b7e75440bed6025f8812bb373e96"
+      }
+    ]
+  }
+}
