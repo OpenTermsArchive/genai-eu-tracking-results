@@ -1,0 +1,25 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T22:35:34.498Z",
+    "serviceName": "Vibe",
+    "sourceDocuments": [
+      {
+        "id": "terms-commercial-terms-of-service",
+        "fetch": "https://legal.mistral.ai/terms/commercial-terms-of-service",
+        "select": [
+          "div"
+        ],
+        "remove": [
+          "button",
+          "footer",
+          "nav",
+          "aside",
+          "img"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "fb9b324c7175b94eaabb272c637e1f88a5d267ec"
+      }
+    ]
+  }
+}
