@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T22:31:01.767Z",
+    "serviceName": "ChatGPT",
+    "sourceDocuments": [
+      {
+        "id": "policies-data-processing-addendum",
+        "fetch": "https://openai.com/policies/data-processing-addendum/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "select[name=\"Locale Select\"]",
+          "main .sr-only"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "d0f21f6f5f2f05b6f3f3b9b0f1a00dcceb0fd17c"
+      }
+    ]
+  }
+}
