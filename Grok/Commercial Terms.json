@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T22:32:29.672Z",
+    "serviceName": "Grok",
+    "sourceDocuments": [
+      {
+        "id": "legal-terms-of-service-enterprise",
+        "fetch": "https://x.ai/legal/terms-of-service-enterprise",
+        "select": [
+          ".prose"
+        ],
+        "remove": [
+          "[href=\"/legal\"]:first-child"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "42400549cb5fb9e7f6199c489b0a6056430ca3b4"
+      }
+    ]
+  }
+}
