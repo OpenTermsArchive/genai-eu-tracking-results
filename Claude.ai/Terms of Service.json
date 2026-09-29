@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T22:31:42.469Z",
+    "serviceName": "Claude.ai",
+    "sourceDocuments": [
+      {
+        "id": "legal-consumer-terms",
+        "fetch": "https://www.anthropic.com/legal/consumer-terms",
+        "select": [
+          "main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "d439a3bef75bff913b550b8bb5f6266463a634c8"
+      }
+    ]
+  }
+}
