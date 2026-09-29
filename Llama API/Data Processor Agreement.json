@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T22:34:06.134Z",
+    "serviceName": "Llama API",
+    "sourceDocuments": [
+      {
+        "id": "fr-en-legal-mfw-subprocessor-list",
+        "fetch": "https://forwork.meta.com/fr/en/legal/mfw-subprocessor-list/",
+        "select": "main",
+        "remove": "#ssrb_root_content",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "c344d731b8036dd913174a39774f93c5beeba2ad"
+      }
+    ]
+  }
+}
