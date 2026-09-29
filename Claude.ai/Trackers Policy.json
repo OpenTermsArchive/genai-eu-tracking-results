@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T22:31:48.105Z",
+    "serviceName": "Claude.ai",
+    "sourceDocuments": [
+      {
+        "id": "legal-cookies",
+        "fetch": "https://www.anthropic.com/legal/cookies",
+        "select": [
+          "main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "b17ee367f0e59d52963318ffec9c9572a7b72fc6"
+      }
+    ]
+  }
+}
