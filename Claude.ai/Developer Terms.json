@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T22:32:02.668Z",
+    "serviceName": "Claude.ai",
+    "sourceDocuments": [
+      {
+        "id": "en-articles-13145338-anthropic-software-directory-terms",
+        "fetch": "https://support.claude.com/en/articles/13145338-anthropic-software-directory-terms",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          ".avatar__info",
+          ".related_articles",
+          ".DocsArticle_relatedList__tzZU6",
+          ".DocsArticle_reactions__MwRj3",
+          ".DocsArticle_relatedTitle__Ysv8Y",
+          "button"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "3293048313636e97c100ca72ece3f9e344d98898"
+      },
+      {
+        "id": "en-articles-13145358-anthropic-software-directory-policy",
+        "fetch": "https://support.claude.com/en/articles/13145358-anthropic-software-directory-policy",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          ".avatar__info",
+          ".related_articles",
+          "[data-testid=\"toc-body\"]",
+          "[data-testid=\"toc-dropdown\"]",
+          ".DocsArticle_relatedList__tzZU6",
+          ".DocsArticle_reactions__MwRj3",
+          ".DocsArticle_relatedTitle__Ysv8Y",
+          "button"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "a1cc1f861604f81cd3705b6fde5248bfefe1eac6"
+      }
+    ]
+  }
+}
