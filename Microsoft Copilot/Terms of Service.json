@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T22:34:31.582Z",
+    "serviceName": "Microsoft Copilot",
+    "sourceDocuments": [
+      {
+        "id": "en-us-microsoft-copilot-for-individuals-termsofuse",
+        "fetch": "https://www.microsoft.com/en-us/microsoft-copilot/for-individuals/termsofuse",
+        "select": [
+          "#mainContent"
+        ],
+        "remove": [
+          ".cdx_mkt_brand"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "3d9fdee7b041eac4fa0a118e7c42f76775e2d88e"
+      }
+    ]
+  }
+}
