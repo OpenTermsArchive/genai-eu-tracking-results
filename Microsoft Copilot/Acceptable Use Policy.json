@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T22:34:36.926Z",
+    "serviceName": "Microsoft Copilot",
+    "sourceDocuments": [
+      {
+        "id": "en-gb-servicesagreement",
+        "fetch": "https://www.microsoft.com/en-gb/servicesagreement/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "div.page[id$=\"XboxLive\"]"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "4d44068a67b80918429b74732c07688ba024df5f"
+      }
+    ]
+  }
+}
