@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T22:35:01.853Z",
+    "serviceName": "Qwen Chat",
+    "sourceDocuments": [
+      {
+        "id": "legal-agreement-terms-of-service",
+        "fetch": "https://chat.qwen.ai/legal-agreement/terms-of-service",
+        "select": [
+          "#ice-container"
+        ],
+        "remove": [
+          "#qwen-ai-layout-top",
+          ".footer--JPmRP55e",
+          ".cookieConfirm--qyDQHqgu"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "550c5de236528de853dd55b034f6b206b25b1c83"
+      }
+    ]
+  }
+}
