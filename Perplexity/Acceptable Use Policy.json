@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T22:34:45.912Z",
+    "serviceName": "Perplexity",
+    "sourceDocuments": [
+      {
+        "id": "hub-legal-aup",
+        "fetch": "https://www.perplexity.ai/hub/legal/aup",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "._topBar_1s0ai_27",
+          "nav"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "a401ac4a05d1a31260a1f6e9c9403548c255e2c5"
+      }
+    ]
+  }
+}
