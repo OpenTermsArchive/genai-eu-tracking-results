@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T22:32:36.719Z",
+    "serviceName": "Grok",
+    "sourceDocuments": [
+      {
+        "id": "legal-brand-guidelines",
+        "fetch": "https://x.ai/legal/brand-guidelines",
+        "select": [
+          ".prose"
+        ],
+        "remove": [
+          "[href=\"/legal\"]:first-child"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "02ee4d38f2fabd4c0534dfcd05cbce2315e23ce5"
+      }
+    ]
+  }
+}
