@@ -1,0 +1,30 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T22:32:15.483Z",
+    "serviceName": "Google Generative AI Services",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "https://policies.google.com/privacy?hl=en-GB&gl=IE",
+        "select": [
+          "[role=\"article\"]"
+        ],
+        "remove": [
+          "img[src$='.svg']"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "809cfba68c82c17a05bbb5759b263f897e8048d8"
+      },
+      {
+        "id": "gemini-answer-13594961",
+        "fetch": "https://support.google.com/gemini/answer/13594961?hl=en#gemini_apps&zippy=%2Cwhat-are-gemini-apps",
+        "select": [
+          ".cc"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "f8da5d0131d04f63a932b1d7b61dd0f90552cedb"
+      }
+    ]
+  }
+}
