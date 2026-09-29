@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T22:34:33.093Z",
+    "serviceName": "Microsoft Copilot",
+    "sourceDocuments": [
+      {
+        "id": "en-ie-privacystatement",
+        "fetch": "https://privacy.microsoft.com/en-ie/privacystatement",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "nav"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "d91942363ec384bf8bf19c5a56506d243441f2b1"
+      }
+    ]
+  }
+}
