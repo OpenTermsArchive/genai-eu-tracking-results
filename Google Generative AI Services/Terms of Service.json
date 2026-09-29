@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T22:32:12.526Z",
+    "serviceName": "Google Generative AI Services",
+    "sourceDocuments": [
+      {
+        "id": "terms",
+        "fetch": "https://policies.google.com/terms?hl=en-GB&gl=IE",
+        "select": "[role=\"article\"]",
+        "remove": [
+          "img[src$='.svg']"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "d40c1dde91398517987dabc14b578059b17e5d8e"
+      },
+      {
+        "id": "terms-generative-ai",
+        "fetch": "https://policies.google.com/terms/generative-ai?hl=en-GB&gl=IE",
+        "select": "[role=\"article\"]",
+        "remove": [
+          "img[src$='.svg']"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "38ad6c69bbde99b961913236b799425095f2d49d"
+      },
+      {
+        "id": "terms-gemini-enterprise-business",
+        "fetch": "https://cloud.google.com/terms/gemini-enterprise/business",
+        "select": {
+          "startBefore": "h1",
+          "endAfter": "[role='toolbar']"
+        },
+        "mimeType": "text/html",
+        "snapshotId": "3a423427e377d07cc093cc0c51a8bdf9d41888bb"
+      }
+    ]
+  }
+}
