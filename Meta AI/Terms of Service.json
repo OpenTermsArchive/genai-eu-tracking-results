@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T22:34:18.142Z",
+    "serviceName": "Meta AI",
+    "sourceDocuments": [
+      {
+        "id": "legal-eu-ai-terms",
+        "fetch": "https://www.facebook.com/legal/eu-ai-terms",
+        "select": [
+          {
+            "startBefore": "[role=\"main\"]",
+            "endAfter": "[role=\"separator\"]"
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "da07e0b2d2d962c6fa8bda33f6841ca894738f79"
+      }
+    ]
+  }
+}
