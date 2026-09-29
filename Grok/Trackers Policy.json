@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T22:32:34.695Z",
+    "serviceName": "Grok",
+    "sourceDocuments": [
+      {
+        "id": "legal-cookie-policy",
+        "fetch": "https://x.ai/legal/cookie-policy",
+        "select": [
+          ".prose"
+        ],
+        "remove": [
+          "[href=\"/legal\"]:first-child"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "1bd64c8bd1ebd60beae67072bb1d8cbc49fda287"
+      }
+    ]
+  }
+}
