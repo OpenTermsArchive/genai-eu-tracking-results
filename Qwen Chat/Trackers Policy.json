@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T22:35:27.963Z",
+    "serviceName": "Qwen Chat",
+    "sourceDocuments": [
+      {
+        "id": "cookies-notice",
+        "fetch": "https://qwen.ai/cookies-notice",
+        "select": [
+          "#ice-container"
+        ],
+        "remove": [
+          "#qwen-ai-layout-top",
+          ".footer--JPmRP55e",
+          ".cookieConfirm--qyDQHqgu"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "d8108c4c031f538ec895a4ca87c806f21f17dc15"
+      }
+    ]
+  }
+}
