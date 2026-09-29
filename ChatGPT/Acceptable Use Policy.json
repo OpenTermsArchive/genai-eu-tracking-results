@@ -1,0 +1,69 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T22:30:54.865Z",
+    "serviceName": "ChatGPT",
+    "sourceDocuments": [
+      {
+        "id": "policies-usage-policies",
+        "fetch": "https://openai.com/policies/usage-policies/",
+        "select": "main",
+        "remove": [
+          "select[name=\"Locale Select\"]",
+          "main .sr-only"
+        ],
+        "filter": [
+          "removeRelativeUpdatedDate"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "aa5c27230881426bd9fdacdee33c2e2338e07acc"
+      },
+      {
+        "id": "policies-using-chatgpt-agent-in-line-with-our-policies",
+        "fetch": "https://openai.com/policies/using-chatgpt-agent-in-line-with-our-policies/",
+        "select": "main",
+        "remove": [
+          "select[name=\"Locale Select\"]",
+          "main .sr-only"
+        ],
+        "filter": [
+          "removeRelativeUpdatedDate"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "482e18be7c51cd6ff3ae3d17d2924eb13f5e9bf7"
+      },
+      {
+        "id": "en-articles-20001152-what-to-know-about-the-sora-discontinuation",
+        "fetch": "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation",
+        "select": "article",
+        "remove": [
+          "select[name=\"Locale Select\"]",
+          "main .sr-only"
+        ],
+        "filter": [
+          "removeRelativeUpdatedDate"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "e754a95c9462ccbd42b91968e879112c1477f8fa"
+      },
+      {
+        "id": "policies-sharing-publication-policy",
+        "fetch": "https://openai.com/policies/sharing-publication-policy/",
+        "select": "main",
+        "remove": [
+          "select[name=\"Locale Select\"]",
+          "main .sr-only"
+        ],
+        "filter": [
+          "removeRelativeUpdatedDate"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "44596ba1040ba6c6b866af89febbb7f9621637c3"
+      }
+    ]
+  }
+}
