@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T22:32:04.990Z",
+    "serviceName": "DeepSeek",
+    "sourceDocuments": [
+      {
+        "id": "policies-en-US-deepseek-privacy-policy",
+        "fetch": "https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html",
+        "select": [
+          "#write"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "7bc076ed9f7bfe58eb117fb38195d5755cfb160c"
+      }
+    ]
+  }
+}
