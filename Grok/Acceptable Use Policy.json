@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T22:32:26.831Z",
+    "serviceName": "Grok",
+    "sourceDocuments": [
+      {
+        "id": "legal-acceptable-use-policy",
+        "fetch": "https://x.ai/legal/acceptable-use-policy",
+        "select": [
+          ".prose"
+        ],
+        "remove": [
+          "[href=\"/legal\"]:first-child"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "dc8494756a7e9d3709b610b7ff60302d60cec65e"
+      }
+    ]
+  }
+}
