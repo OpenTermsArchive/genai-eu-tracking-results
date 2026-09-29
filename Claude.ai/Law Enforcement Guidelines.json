@@ -1,0 +1,43 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T22:32:00.482Z",
+    "serviceName": "Claude.ai",
+    "sourceDocuments": [
+      {
+        "id": "en-articles-9519291-what-is-anthropic-s-policy-for-handling-governmental-requests-for-user-information",
+        "fetch": "https://privacy.claude.com/en/articles/9519291-what-is-anthropic-s-policy-for-handling-governmental-requests-for-user-information",
+        "select": [
+          ".article"
+        ],
+        "remove": [
+          ".avatar__info",
+          ".related_articles",
+          ".DocsArticle_relatedList__tzZU6",
+          ".DocsArticle_reactions__MwRj3",
+          ".DocsArticle_relatedTitle__Ysv8Y",
+          "button"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "1d0877775d57b11b4c3722881567a601789163c9"
+      },
+      {
+        "id": "en-articles-9035075-law-enforcement-requests",
+        "fetch": "https://support.anthropic.com/en/articles/9035075-law-enforcement-requests",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          ".avatar__info",
+          ".related_articles",
+          ".DocsArticle_relatedList__tzZU6",
+          ".DocsArticle_reactions__MwRj3",
+          ".DocsArticle_relatedTitle__Ysv8Y",
+          "button"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "e292768434c9ffe8777baf557779010c54e1c503"
+      }
+    ]
+  }
+}
