@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T22:32:06.135Z",
+    "serviceName": "DeepSeek",
+    "sourceDocuments": [
+      {
+        "id": "policies-en-US-deepseek-terms-of-use",
+        "fetch": "https://cdn.deepseek.com/policies/en-US/deepseek-terms-of-use.html",
+        "select": [
+          "#write"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "01e9f90b67ab0a88aa52576643f510addce33ef1"
+      }
+    ]
+  }
+}
