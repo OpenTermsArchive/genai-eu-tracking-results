@@ -1,0 +1,15 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T22:31:41.513Z",
+    "serviceName": "ChatGPT",
+    "sourceDocuments": [
+      {
+        "id": "pdf-openai-law-enforcement-policy-v.2025-12",
+        "fetch": "https://cdn.openai.com/pdf/openai-law-enforcement-policy-v.2025-12.pdf",
+        "mimeType": "application/pdf",
+        "snapshotId": "17daea49e8d5049276a998def3a847e3e647f984"
+      }
+    ]
+  }
+}
