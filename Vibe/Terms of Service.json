@@ -1,0 +1,38 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T22:35:30.448Z",
+    "serviceName": "Vibe",
+    "sourceDocuments": [
+      {
+        "id": "terms-eu-consumers-terms-of-service",
+        "fetch": "https://legal.mistral.ai/terms/eu-consumers-terms-of-service",
+        "select": [
+          "div"
+        ],
+        "remove": [
+          "button",
+          "footer",
+          "nav",
+          "aside",
+          "img"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "d0e9a38fe306371c4449949681216a8281020d88"
+      },
+      {
+        "id": "legal",
+        "fetch": "https://mistral.ai/legal/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "header",
+          "footer"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "4bfc1658bc8ceeca996aaa78d45e5e341007a75c"
+      }
+    ]
+  }
+}
