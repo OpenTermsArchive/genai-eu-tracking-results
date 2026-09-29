@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T22:34:43.826Z",
+    "serviceName": "Perplexity",
+    "sourceDocuments": [
+      {
+        "id": "hub-legal-dpa",
+        "fetch": "https://www.perplexity.ai/hub/legal/dpa",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "._topBar_1s0ai_27",
+          "nav"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "1c901be1ba53cbd5a7324e73a2176ba78a9d8273"
+      }
+    ]
+  }
+}
