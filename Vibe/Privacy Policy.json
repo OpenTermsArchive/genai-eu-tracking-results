@@ -1,0 +1,25 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T22:35:32.030Z",
+    "serviceName": "Vibe",
+    "sourceDocuments": [
+      {
+        "id": "terms-privacy-policy",
+        "fetch": "https://legal.mistral.ai/terms/privacy-policy",
+        "select": [
+          "div"
+        ],
+        "remove": [
+          "button",
+          "footer",
+          "nav",
+          "aside",
+          "img"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "a61876f21a780213d2947275e707fce4c28d0514"
+      }
+    ]
+  }
+}
