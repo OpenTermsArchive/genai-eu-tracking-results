@@ -1,0 +1,28 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T22:31:56.233Z",
+    "serviceName": "Claude.ai",
+    "sourceDocuments": [
+      {
+        "id": "legal-data-processing-addendum",
+        "fetch": "https://www.anthropic.com/legal/data-processing-addendum",
+        "select": [
+          "main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "3eecd816d913a1ebad490cf890736f0082197e5c"
+      },
+      {
+        "id": "subprocessors",
+        "fetch": "https://trust.anthropic.com/subprocessors",
+        "select": [
+          "table"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "e4219f5836c291f7efac91a169c8dc1668eb9753"
+      }
+    ]
+  }
+}
