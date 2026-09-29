@@ -1,0 +1,23 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-29T22:33:15.806Z",
+    "serviceName": "Llama API",
+    "sourceDocuments": [
+      {
+        "id": "legal-acceptable-use-policy",
+        "fetch": "https://llama.developer.meta.com/legal/acceptable-use-policy",
+        "select": {
+          "startAfter": "h1",
+          "endAfter": "#end-of-content"
+        },
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "f2b2f5d3d9666f7f38f59a46cf6853ad310fd421"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The \"end\" selector has no match in document in: {\"startAfter\":\"h1\",\"endAfter\":\"#end-of-content\"}"
+    ]
+  }
+}
