@@ -1,0 +1,25 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T22:35:33.097Z",
+    "serviceName": "Vibe",
+    "sourceDocuments": [
+      {
+        "id": "terms-cookie-policy",
+        "fetch": "https://legal.mistral.ai/terms/cookie-policy",
+        "select": [
+          "div"
+        ],
+        "remove": [
+          "button",
+          "footer",
+          "nav",
+          "aside",
+          "img"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "3a50dc00b753a4462bac9968795885ab6057c3ad"
+      }
+    ]
+  }
+}
