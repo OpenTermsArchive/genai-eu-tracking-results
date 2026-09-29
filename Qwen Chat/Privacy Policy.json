@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-29T22:35:15.407Z",
+    "serviceName": "Qwen Chat",
+    "sourceDocuments": [
+      {
+        "id": "legal-agreement-privacy-policy",
+        "fetch": "https://chat.qwen.ai/legal-agreement/privacy-policy",
+        "select": [
+          "#ice-container"
+        ],
+        "remove": [
+          "#qwen-ai-layout-top",
+          ".footer--JPmRP55e",
+          ".cookieConfirm--qyDQHqgu"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "a089ca2b4b9cb277ccdca8dc0de311ec1e28c561"
+      }
+    ]
+  }
+}
