@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-867cf8bb-b967-4320-80fe-c8243a8f3bd8",
+  "runId": "ota-run-356a22cd-f65f-4cf5-a3bc-1ef936192369",
   "collectionId": "genai-eu",
   "schedule": "30 */12 * * *",
   "lastRun": {
-    "startDate": "2026-10-05T22:30:01.172Z",
-    "endDate": "2026-10-05T22:35:40.966Z",
+    "startDate": "2026-10-06T10:30:01.105Z",
+    "endDate": null,
     "engineVersion": "16.2.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "21a640ff7bc26f1814abfc733304837ac62bd207",
@@ -14,20 +14,15 @@
     "terms": 56
   },
   "tracked": {
-    "ok": 52,
-    "failed": 4
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 56,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "Vibe",
-        "termsType": "Terms of Service"
-      }
-    ],
+    "newFailures": [],
     "recoveries": [],
     "reasonChanges": []
   },
