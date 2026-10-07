@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-09-29T22:33:40.788Z",
+    "date": "2026-10-07T22:33:20.998Z",
     "serviceName": "Llama API",
     "sourceDocuments": [
       {
@@ -18,8 +18,8 @@
           "removeTrackingIDs"
         ],
         "executeClientScripts": true,
-        "mimeType": "text/html",
-        "snapshotId": "9ffbc00d3042876224efbe6cda4ba2e7c43cacb5"
+        "mimeType": null,
+        "snapshotId": null
       },
       {
         "id": "privacy-policy-printable",
@@ -42,11 +42,11 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "3c089c5395bcb41d10ee8a908580880560009989"
+        "snapshotId": "0c90e7a1d08ecfba4d204fff884de9e0183a7f42"
       }
     ],
     "reasons": [
-      "[extraction] Extract failed: The \"end\" selector has no match in document in: {\"startBefore\":\"h1\",\"endAfter\":\"#end-of-content\"}"
+      "[fetch] Fetch failed: Received HTTP code 404 when trying to fetch 'https://llama.developer.meta.com/docs/trust/data-commitments'"
     ]
   }
 }
