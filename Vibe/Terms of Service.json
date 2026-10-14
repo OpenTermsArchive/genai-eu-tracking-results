@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-10-05T22:35:35.980Z",
+    "date": "2026-10-14T10:35:05.128Z",
     "serviceName": "Vibe",
     "sourceDocuments": [
       {
@@ -18,24 +18,8 @@
           "img"
         ],
         "mimeType": "text/html",
-        "snapshotId": null
-      },
-      {
-        "id": "legal",
-        "fetch": "https://mistral.ai/legal/",
-        "select": [
-          "main"
-        ],
-        "remove": [
-          "header",
-          "footer"
-        ],
-        "mimeType": null,
-        "snapshotId": null
+        "snapshotId": "a7ad6b79e197808ff7d99c47ab439e96374c826b"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 404 when trying to fetch 'https://mistral.ai/legal/'"
     ]
   }
 }
