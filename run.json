@@ -1,24 +1,24 @@
 {
-  "runId": "ota-run-9b6f07f1-799e-4ec5-95ae-94c51a6a2bcc",
+  "runId": "ota-run-acd1f9d2-97b2-44ac-88c2-8a943dc1e2a3",
   "collectionId": "genai-eu",
   "schedule": "30 */12 * * *",
   "lastRun": {
-    "startDate": "2026-11-10T11:30:01.106Z",
-    "endDate": "2026-11-10T11:36:02.312Z",
-    "engineVersion": "17.0.0",
-    "status": "completed"
+    "startDate": "2026-11-10T23:30:01.067Z",
+    "endDate": null,
+    "engineVersion": "17.0.1",
+    "status": "in_progress"
   },
   "declarations": {
-    "commit": "2233eb1d633e6691a185d2a656461d3b22531e98",
+    "commit": "9a7d90c943c0a667392eeec37a609271357f3112",
     "services": 12,
     "terms": 56
   },
   "tracked": {
-    "ok": 53,
-    "failed": 3
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 56,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
