@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-11-23T11:35:55.292Z",
+    "date": "2026-11-23T23:35:54.417Z",
     "serviceName": "Qwen Chat",
     "sourceDocuments": [
       {
@@ -17,13 +17,8 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "9a4ff1ec3d60f6206e85a5973660441ced8f3ede"
+        "snapshotId": "fd07f60d371a89522b9821da9898d6e6c8c9be12"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Received HTTP code 503 when trying to fetch 'https://chat.qwen.ai/legal-agreement/privacy-policy'"
-      ]
-    }
+    ]
   }
 }
