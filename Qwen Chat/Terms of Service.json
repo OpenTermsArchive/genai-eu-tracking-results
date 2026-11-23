@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-11-23T11:35:43.277Z",
+    "date": "2026-11-23T23:35:29.819Z",
     "serviceName": "Qwen Chat",
     "sourceDocuments": [
       {
@@ -16,12 +16,9 @@
           ".cookieConfirm--qyDQHqgu"
         ],
         "executeClientScripts": true,
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "8b86add9d0c0038b0a1dee14437da4e412612fd6"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Received HTTP code 503 when trying to fetch 'https://chat.qwen.ai/legal-agreement/terms-of-service'"
     ]
   }
 }
