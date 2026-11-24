@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-66808e33-dd46-4267-8aff-d1decf9e5bcf",
+  "runId": "ota-run-5ff6ad6d-f9f8-493a-9fc4-016346255f7b",
   "collectionId": "genai-eu",
   "schedule": "30 */12 * * *",
   "lastRun": {
-    "startDate": "2026-11-23T23:30:01.199Z",
-    "endDate": "2026-11-23T23:35:59.599Z",
+    "startDate": "2026-11-24T11:30:01.295Z",
+    "endDate": null,
     "engineVersion": "17.0.1",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "9a7d90c943c0a667392eeec37a609271357f3112",
@@ -14,21 +14,16 @@
     "terms": 56
   },
   "tracked": {
-    "ok": 53,
-    "failed": 3
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 56,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
     "newFailures": [],
-    "recoveries": [
-      {
-        "serviceId": "Qwen Chat",
-        "termsType": "Terms of Service"
-      }
-    ],
+    "recoveries": [],
     "reasonChanges": []
   },
   "transientErrors": 0
